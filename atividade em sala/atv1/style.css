@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(32, 131, 32, 0.795);
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    padding: 15px;
+}
+
+img {
+    margin-right: 10px;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.img1 h1, p{
+    padding: 10px;
+    text-align: justify;
+}
+
+div {
+    margin-bottom: 20px;
+    display: inline-block;
+    
+}
