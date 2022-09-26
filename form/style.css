@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(to left, rgb(250, 171, 75), rgb(252, 210, 159));
+}
+
+.imagem{
+    width: 400px;
+    display: inline-block;
+}
+
+.imagem img{
+    height: 200px;
+    width: 200px;
+    margin-left: 15%; 
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+#container{
+    width: 400px;
+}
+
+.imagem p{
+  margin-top: 40px;
+}
+
+.formulario{
+    position:relative;
+    bottom: 64%;
+    right: 15%;
+    border-radius: 10%;
+    background-color: beige;
+    float: right;
+    padding: 20px;
+}
+
+input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+select{
+    cursor: pointer;
+}
+
+input, select{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 70%;
+    margin: 8px 0;
+}
+
+h1{
+    text-align: center;
+}
+
+#an{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    left: 20%;
+    height: 150px;
+    width: 150px;
+    background-color: deeppink;
+    animation-duration: 4s;
+    animation-name: exemplo;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exemplo {
+    0%{background-color: deeppink; left: 0px; top: 0px;}
+    25%{background-color: rgb(255, 95, 180); left: 200px; top: 0px;}
+    50%{background-color: rgb(250, 140, 198); left: 200px; top: 200px;}
+    75%{background-color: rgb(248, 169, 211); left: 0px; top: 200px;}
+    100%{background-color: rgb(250, 237, 244); left: 0px; top: 0px;}
+}
