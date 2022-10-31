@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .titulo{
+    color:#4ed2d2;
+    text-align:center;
+  }
+  
+  nav{
+    width:100%;
+  }
+  
+  .navbar-brand{
+    color: #4ed2d2;
+    font-family: 'Kumar One', cursive;
+    font-size:170%;
+    margin-left:2%;
+    margin-top:1%;
+  }
+  
+  img, .d-inline-block align-top{
+    border-radius:42%;
+    /*margin-left:1%;*/
+  }
+  
+  .subt{
+    color:#4ed2d2;
+    font-family:'Merienda', cursive;
+    font-size:140%;
+    text-align: center;
+    margin-top:5%;
+   /* margin-left:41.3%;*/
+  }
+  
+  
+  .desejo{
+   color: #4ed2d2;
+  font-family: 'Merienda', cursive;
+    margin-left:15%;
+    font-size:130%;
+    margin-top:10%;
+  }
+  
+  .escolha, a{
+    color:#4ed2d2;
+    text-decoration:none;
+    text-align:center;
+    list-style:none;
+    font-size:110%;
+    font-family: 'Merienda';
+    display:block;
+    margin-top:4%;
+  }
+  
+  
+  
+  .escolha, a:hover{
+    color:#37b3b3;
+  }
+  
+  
+  
+  .card{  
+    margin: auto;
+    align-items:center;
+    border: solid 4px rgb(54, 242, 195);
+    background-color:#CBC9C9;
+    border-radius:4%;
+    /*height:30%;*/
+  }
+  
+  .card-img-top{
+    border-radius:12%;
+    width:95%;
+    margin-top:2%;
+    
+  }
+  
+  .card-text{
+    color:black;
+    font-family: 'Maven Pro';
+  
+    font-size:85%;
+  }
+  
+  .card-title{
+    font-family: 'Maven Pro';
+    color:#4ed2d2;
+    font-size:115%;
+  }
+  
+  h6, .valor{
+    color:#4ed2d2;
+    font-family: 'Maven Pro';
+  
+  }
+  
+  .btn-primary{
+    background-color:#4ed2d2;
+    border: none;
+    width:80%;
+    margin-left:10%;
+  }
+  
+  
+  
